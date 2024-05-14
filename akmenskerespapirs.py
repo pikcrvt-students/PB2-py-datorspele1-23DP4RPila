@@ -51,8 +51,8 @@ losses = 0
 draws = 0
 invalid_choices = 0
 
-for i in range(5):
-    player_choice = input('''--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+for i in range(5):           
+    player_choice = input('''                          -----------------------------------------------------------------------------------------------
                           Play the game: rock, paper, scissors! Choose your element by typing - rock, paper or scissors: ''')    
     time.sleep(0.25)
     print("User chose:", '''
@@ -73,12 +73,12 @@ for i in range(5):
 
     time.sleep(1.5)
     print("Computer chose:", '''
-       -------
+      -------
      /        \\
     |  O   O  |
     |         |   
-     \\  ---   /
-       -------
+     \\  ---  /
+      -------
     ''', end = '')
     if computer_choice == "rock":
         print(rock)
