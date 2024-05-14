@@ -19,13 +19,13 @@ Programmas kārtība:
 ```
 Spēlētāju izskats:
 
-Lietotājs(cilvēks):
+Cilvēks(Lietotājs):
 
   O O
    -
 \_____/  
 
-Dators(robots):
+Robots(dators):
   -------
  /        \
 |  O   O  |
@@ -61,7 +61,7 @@ Papīrs:
 
 Spēles iznākumu ASCII art:
 
-Uzvara
+Uzvara:
  __      _____ _  _
  \ \    / /_ _| \| |
   \ \/\/ / | || .` |
@@ -73,7 +73,7 @@ Zaudējums:
  | |_| (_) \__ \__ \
  |____\___/|___/___/
 
-Neizšķirts
+Neizšķirts:
   ___  ___    ___      __
  |   \| _ \  /_\ \    / /
  | |) |   / / _ \ \/\/ /
