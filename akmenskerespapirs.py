@@ -50,8 +50,6 @@ wins = 0
 losses = 0
 draws = 0
 invalid_choices = 0
-last5results = []
-
 
 for i in range(5):
     player_choice = input('''--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -93,51 +91,42 @@ for i in range(5):
         
     if player_choice == "rock" and computer_choice == "scissors":
         games = games + 1
-        wins = wins + 1
-        last5results.append("Win")
+        wins = wins + 1        
         print(win)
     elif player_choice == "paper" and computer_choice == "rock":
         games = games + 1
-        wins = wins + 1
-        last5results.append("Win")
+        wins = wins + 1        
         print(win)
     elif player_choice == "scissors" and computer_choice == "paper":
         games = games + 1
-        wins = wins + 1
-        last5results.append("Win")
+        wins = wins + 1        
         print(win)
 
 
     if player_choice == "rock" and computer_choice == "paper":
         games = games + 1
-        losses = losses + 1
-        last5results.append("Loss")
+        losses = losses + 1        
         print(loss)
     elif player_choice == "paper" and computer_choice == "scissors":
         games = games + 1
-        losses = losses + 1
-        last5results.append("Loss")
+        losses = losses + 1        
         print(loss)
     elif player_choice == "scissors" and computer_choice == "rock":
         games = games + 1
-        losses = losses + 1
-        last5results.append("Loss")
+        losses = losses + 1        
         print(loss)
 
     if player_choice == "rock" and computer_choice == "rock":
         games = games + 1
-        draws = draws + 1
-        last5results.append("Draw")
+        draws = draws + 1        
         print(draw)
     elif player_choice == "paper" and computer_choice == "paper":
         games = games + 1
-        draws = draws + 1
-        last5results.append("Draw")
+        draws = draws + 1        
         print(draw)
     elif player_choice == "scissors" and computer_choice == "scissors":
         games = games + 1
-        draws = draws + 1
-        last5results.append("Draw")
+        draws = draws + 1        
         print(draw)
 print('''-------------------------------------------
       Restults from the last 5 games: ''')
