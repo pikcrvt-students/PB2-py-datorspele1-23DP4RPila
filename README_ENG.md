@@ -13,7 +13,7 @@ ASCII art of a robot face with the corresponding ASCII art element is displayed.
 4. The game repeats 4 more times (5 times total), and at the end, ASCII art is displayed - Victory, Loss, or Draw result, respectively.  
 5. At the end of the game, statistics are displayed with the number of wins, losses, and draws.  
 6. If there are invalid inputs, the number of invalid inputs is displayed at the end.
-
+7. At the end there will be a prompt which asks if you want to play again. Writing `y` will let you play 5 rounds again, writing `n` will output a goodbye message and the script ends.
 # Game ASCII art elements:
 ```
 ASCII art - human face:
