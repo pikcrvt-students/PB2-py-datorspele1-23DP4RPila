@@ -153,3 +153,4 @@ while extra_gameSystem > 0:
         extra_gameSystem += 1
     if playagain == "n":
         print("Ok, bye!")
+    break
