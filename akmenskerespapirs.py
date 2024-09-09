@@ -48,7 +48,6 @@ draw = '''
 
 choices = ["rock", "scissors", "paper"]
 chosen_action = {rock: "rock", scissors: "scissors", paper: "paper"}
-computer_choice = random.choice(choices)
 
 games = 0
 wins = 0
@@ -59,6 +58,7 @@ invalid_choices = 0
 for i in range(5):           
     player_choice = input('''                          -----------------------------------------------------------------------------------------------
                           Play the game: rock, paper, scissors! Choose your element by typing - rock, paper or scissors: ''')    
+    computer_choice = random.choice(choices)
     time.sleep(0.25)
     print("User chose:", '''
       O O
