@@ -59,6 +59,7 @@ for i in range(5):
     player_choice = input('''                          -----------------------------------------------------------------------------------------------
                           Play the game: rock, paper, scissors! Choose your element by typing - rock, paper or scissors: ''')    
     computer_choice = random.choice(choices)
+        
     time.sleep(0.25)
     print("User chose:", '''
       O O
@@ -73,7 +74,7 @@ for i in range(5):
         print(scissors)
     elif player_choice != choices:
         invalid_choices = invalid_choices + 1
-        print("???")
+        print("Invalid input. Write 'rock', 'paper' or 'scissors'. (no spaces, no capital letters)")
     print(f"{player_choice}")
 
     time.sleep(1.5)
