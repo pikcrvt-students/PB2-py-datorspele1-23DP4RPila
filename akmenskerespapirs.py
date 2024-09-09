@@ -74,7 +74,7 @@ for i in range(5):
         print(scissors)
     elif player_choice != choices:
         invalid_choices = invalid_choices + 1
-        print("Invalid input. Write 'rock', 'paper' or 'scissors'. (no spaces, no capital letters)")
+        print("Invalid input. Accepted inputs: 'rock', 'paper' or 'scissors'. (no spaces, no capital letters)")
     print(f"{player_choice}")
 
     time.sleep(1.5)
