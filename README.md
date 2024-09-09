@@ -7,7 +7,7 @@ Spēles kārtība:
 
 1. Izvada ziņojumu `input` ar iespēju ievadīt atbildi - spēlēt spēli: akmens, šķēres, papīrīts, 
 ievadīt kādu no derīgajiem `str` elementiem. - `rock`, `paper`, `scissors`.
-2. Pēc ievades un `Enter` nospiešanas, tiek izvadīts lietotāja ASCII art seja ar atbilstošo lietotāja izvēlēto objektu ASCII art stilā - akmens, šķēres vai papīrīts.
+2. Pēc ievades un Enter nospiešanas, tiek izvadīta lietotāja ASCII art seja ar atbilstošo lietotāja izvēlēto objektu ASCII art stilā - akmens, šķēres vai papīrīts.
 Tiek izvadīta robota ASCII art seja ar atbilstošo ASCII art elementu
 3. Tiek izvadīts spēles iznākums - uzvara, zaudējums vai neizšķirts (`win`, `loss` vai `draw`)
 4.  Spēle atkārtojas vēl 4 reizes un beigās tiek izvadīts Uzvaru, zaudējumu, neizšķirtu rezultātu un, ja tādi ir, tad izvada arī nederīgu rezultātu skaits.
