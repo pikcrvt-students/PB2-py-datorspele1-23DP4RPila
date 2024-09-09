@@ -22,6 +22,7 @@ Tiek izvadīta ASCII art - robota seja ar atbilstošo ASCII art elementu
 4.  Spēle atkārtojas vēl 4 reizes (kopā 5 reizes) un beigās tiek izvadīts atbilstošais ASCII art - Uzvara, zaudējums, neizšķirts rezultāts.
 5.  Spēles beigās tiek parādīta statistika ar uzvarām, zaudējumuem un neizšķirtajiem rezuktātiem, norādot to skaitu
 6.  Ja ir nederīgas ievades, tad beigās parādās nederīgo ievažu skaits.
+7.  Beigās būs jautājums, vai vēlaties spēlēt vēlreiz. Ievadot `y`, jūs varēsiet atkal spēlēt 5 kārtas, bet, ievadot `n`, tiks izvadīts atvadu ziņojums, un kods beigs darboties.
 
 # Spēles ASCII art elementi:
 ```
