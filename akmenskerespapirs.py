@@ -49,11 +49,11 @@ draw = '''
 choices = ["rock", "scissors", "paper"]
 chosen_action = {rock: "rock", scissors: "scissors", paper: "paper"}
 
-games = 0
 wins = 0
 losses = 0
 draws = 0
 invalid_choices = 0
+
 extra_gameSystem = 1
 playagain = 0
 
@@ -99,50 +99,42 @@ while extra_gameSystem > 0:
         time.sleep(1.5)
             
         if player_choice == "rock" and computer_choice == "scissors":
-            games = games + 1
             wins = wins + 1        
             print(win)
         elif player_choice == "paper" and computer_choice == "rock":
-            games = games + 1
             wins = wins + 1        
             print(win)
         elif player_choice == "scissors" and computer_choice == "paper":
-            games = games + 1
             wins = wins + 1        
             print(win)
 
 
         if player_choice == "rock" and computer_choice == "paper":
-            games = games + 1
             losses = losses + 1        
             print(loss)
         elif player_choice == "paper" and computer_choice == "scissors":
-            games = games + 1
             losses = losses + 1        
             print(loss)
         elif player_choice == "scissors" and computer_choice == "rock":
-            games = games + 1
             losses = losses + 1        
             print(loss)
 
         if player_choice == "rock" and computer_choice == "rock":
-            games = games + 1
             draws = draws + 1        
             print(draw)
         elif player_choice == "paper" and computer_choice == "paper":
-            games = games + 1
             draws = draws + 1        
             print(draw)
         elif player_choice == "scissors" and computer_choice == "scissors":
-            games = games + 1
             draws = draws + 1        
             print(draw)
     print('''-------------------------------------------
-        Restults from the last 5 games: ''')
+        Restults from the last 5 rounds: ''')
     print()
     print("Wins: ", wins)
     print("Losses: ", losses)
     print("Draws: ", draws)
+
     if invalid_choices > 0:
         print("Invalid choices: ", invalid_choices)
     extra_gameSystem -= 1
