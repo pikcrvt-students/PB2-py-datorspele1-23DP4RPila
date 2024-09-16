@@ -59,8 +59,8 @@ playagain = 0
 
 while extra_gameSystem > 0:
     for i in range(5):           
-        player_choice = input('''                          -----------------------------------------------------------------------------------------------
-                            Play the game: rock, paper, scissors! Choose your element by typing - rock, paper or scissors: ''')    
+        player_choice = input(f'''                          -----------------------------------------------------------------------------------------------
+                           ({i+1}/5) Play a round: rock, paper, scissors! Choose your element by typing - rock, paper or scissors: ''')    
         computer_choice = random.choice(choices)
             
         time.sleep(0.25)
@@ -148,9 +148,9 @@ while extra_gameSystem > 0:
     extra_gameSystem -= 1
 
     print()
-    playagain = input("Play 5 rounds again? (y/n)")
+    playagain = input("Play 5 rounds again? (y/n): ")
     if playagain == "y":
         extra_gameSystem += 1
-    if playagain == "n":
+    elif playagain == "n":
         print("Ok, bye!")
-    break
+        break
